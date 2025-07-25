@@ -217,3 +217,78 @@
         .add-to-cart:hover {
             background: #d35400;
         }
+
+
+
+
+
+
+
+        /* Plant Lover Section */
+        .plant-lover-section {
+            padding: 80px 0;
+           background: rgba(245, 248, 255, 1);
+            position: relative;
+        }
+
+        .plant-lover-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 70px;
+            align-items: center;
+        }
+
+        .plant-lover-image {
+            position: relative;
+        }
+
+        /* .plant-lover-image img {
+            /* width: 100%;
+            height: auto; */
+            /* border-radius: 10px; */
+        /* } */ 
+
+        .flower-store{
+            width: 100%;
+            height: auto;
+
+        }
+
+        .trusted-badge {
+            position: absolute;
+            top: -105px;
+            right: -100px;
+            width: 286px;
+            height: 286px;
+            z-index: 10;
+            
+        }
+
+        .plant-lover-content h2 {
+            font-size: 50px;
+            margin-bottom: 30px;
+            color: black;
+        }
+
+        .plant-lover-content ul {
+            list-style: none;
+        }
+
+        .plant-lover-content li {
+            color: gray;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            position: relative;
+            font-size: 20px;
+           
+            
+         
+        }
+
+        .plant-lover-content li:before {
+            content: "•";
+            color: gray;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+        }
